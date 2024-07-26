@@ -24,7 +24,7 @@ const addCustomer = async(name, age) => {
         { name: name, age: age },
 ];
 
-    // const customer = await Customer.create(customerData);
+    const customer = await Customer.create(customerData);
     // console.log("New customer:", customer);
   };
 
